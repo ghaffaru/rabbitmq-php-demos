@@ -1,0 +1,19 @@
+{
+    "name": "ghaffarumudashiru/rabbitmq-test",
+    "description": "Testing rabbitmq",
+    "type": "project",
+    "require": {
+        "php-amqplib/php-amqplib": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ghaffarumudashiru\\RabbitmqTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ghaffaru Mudashiru",
+            "email": "mudashiruagm@gmail.com"
+        }
+    ]
+}
