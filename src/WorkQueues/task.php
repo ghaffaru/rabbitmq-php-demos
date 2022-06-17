@@ -1,11 +1,11 @@
 <?php
 
-use PhpAmqpLib\Connection\AMQPStreamConnection as AMQPStreamConnectionAlias;
+use PhpAmqpLib\Connection\AMQPStreamConnection;
 use PhpAmqpLib\Message\AMQPMessage;
 
 require_once './vendor/autoload.php';
 
-$connection = new AMQPStreamConnectionAlias('localhost', 5672, 'guest', 'guest');
+$connection = new AMQPStreamConnection('localhost',5672, 'guest', 'guest');
 
 $channel = $connection->channel();
 
